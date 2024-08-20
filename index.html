@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>
+          <svg
+            width="95"
+            height="98"
+            viewBox="10 21 95 98"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="logo"
+          >
+            <path
+              d="M25.9 93H9.9V23H22.1C30.9 23 37.5333 24.6333 42 27.9C46.4667 31.1 48.7 35.6333 48.7 41.5C48.7 48.1667 45.9 53.0667 40.3 56.2C48.4333 59.2667 52.5 65.0333 52.5 73.5C52.5 79.5 50.3 84.2667 45.9 87.8C41.5 91.2667 34.8333 93 25.9 93ZM25.9 90C29.0333 90 31.9 89.7667 34.5 89.3C37.1 88.7667 39.5667 87.9333 41.9 86.8C44.3 85.6 46.1667 83.8667 47.5 81.6C48.8333 79.3333 49.5 76.6333 49.5 73.5C49.5 66.3667 46.0667 61.5333 39.2 59L33.2 56.8L38.8 53.6C43.4 51.0667 45.7 47.0333 45.7 41.5C45.7 31.1667 37.8333 26 22.1 26H12.9V90H25.9Z"
+              fill="pink"
+            />
+            <path
+              d="M85.1 117H101.1V47H88.9C80.1 47 73.4667 48.6333 69 51.9C64.5333 55.1 62.3 59.6333 62.3 65.5C62.3 72.1667 65.1 77.0667 70.7 80.2C62.5667 83.2667 58.5 89.0333 58.5 97.5C58.5 103.5 60.7 108.267 65.1 111.8C69.5 115.267 76.1667 117 85.1 117ZM85.1 114C81.9667 114 79.1 113.767 76.5 113.3C73.9 112.767 71.4333 111.933 69.1 110.8C66.7 109.6 64.8333 107.867 63.5 105.6C62.1667 103.333 61.5 100.633 61.5 97.5C61.5 90.3667 64.9333 85.5333 71.8 83L77.8 80.8L72.2 77.6C67.6 75.0667 65.3 71.0333 65.3 65.5C65.3 55.1667 73.1667 50 88.9 50H98.1V114H85.1Z"
+              fill="pink"
+            />
+          </svg>
+        </h1>
+        <form>
+          <input type="text" placeholder="검색어를 입력해주세요" />
+          <button class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+        <div class="open-likes"></div>
+        <ul class="category">
+          <li data-cid="53516">건강/운동</li>
+          <li data-cid="53488">패션/뷰티</li>
+          <li data-cid="53483">음식 이야기</li>
+          <li data-cid="90456">인테리어</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="main-sec">
+        <h2>메인</h2>
+        <ul class="wrap">
+          <li class="item">
+            <div class="photo" style="background-image: url()">
+              <div class="description">aaaaaaa</div>
+            </div>
+            <span class="title">책 제목</span>
+            <strong class="price">00,000 원</strong>
+            <div class="like"></div>
+            <p class="maker">제작사 / 출판사</p>
+          </li>
+        </ul>
+      </section>
+      <section class="modal-sec">
+        <div class="modal">
+          <ul class="modal-wrap">
+            <!-- <li class="item">
+              <div class="photo">
+                <div class="description">aaaaaaa</div>
+              </div>
+              <span class="title">책 제목</span>
+              <strong class="price">00,000 원</strong>
+              <div class="heart">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <p class="maker">제작사 / 출판사</p>
+            </li> -->
+          </ul>
+          <button class="close">
+            <i class="fa-solid fa-x"></i>
+          </button>
+        </div>
+      </section>
+      <section class="page-sec">
+        <!-- <button class="prev"><i class="fas fa-arrow-left"></i></button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>5</button>
+        <button class="next"><i class="fas fas fa-arrow-right"></i></button> -->
+      </section>
+    </main>
+  </body>
+</html>
